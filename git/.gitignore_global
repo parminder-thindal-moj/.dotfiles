@@ -3,10 +3,13 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+Thumbs.db
 
 # Icon must end with two \r
 Icon
 
+# Ignore editor-specific files
+.vscode/
 
 # Thumbnails
 ._*

@@ -7,3 +7,5 @@
 #	email = parminderthindal@pst-mbp.local
 [init]
 	defaultBranch = main
+[core]
+	excludesfile = /Users/parminderthindal/.gitignore_global
