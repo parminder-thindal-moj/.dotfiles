@@ -20,7 +20,7 @@ function brew_uuc() {
     brew upgrade
 
     log "Cleanup old packages..."
-    brew update
+    brew cleanup
 }
 
 log "Starting Homebrew maintenance"
