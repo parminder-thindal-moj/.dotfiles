@@ -118,3 +118,5 @@ eval "$(pyenv virtualenv-init -)"
 
 # homebrew update frequency.
 export HOMEBREW_AUTO_UPDATE_SECS=604800
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/parminderthindal/.cache/lm-studio/bin"

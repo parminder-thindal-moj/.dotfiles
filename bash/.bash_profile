@@ -10,3 +10,5 @@ echo 'eval "$(pyenv init -)"' >> .bash_profile
 
 # alias for pip3 to work with pyenv
 echo "alias pip=/usr/local/bin/pip3" >> ~/.bashrc
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/parminderthindal/.cache/lm-studio/bin"
