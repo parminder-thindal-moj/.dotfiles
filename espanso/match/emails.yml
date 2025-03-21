@@ -1,0 +1,95 @@
+matches:
+
+### emails
+  - trigger: "@justice"
+    replace: "parminder.thindal@justice.gov.uk"
+  
+  - trigger: "@gmail"
+    replace: "parminderthindal@gmail.com"
+
+### email subjects
+### prefix all subjects with :sub-
+
+  - trigger: ":sub-meet"
+    replace: "[MEETING REQUEST] - [TOPIC]"
+
+  - trigger: ":sub-travel"
+    replace: "[TRAVEL APPROVAL REQUIRED] - Travel for [REASON] on [DATE]"
+
+  - trigger: ":sub-update"
+    replace: "[UPDATE REQUIRED] - Can you provide an update on [TOPIC]"
+
+  - trigger: ":sub-info"
+    replace: "[INFO REQUIRED] - Can you provide info on [TOPIC]"
+
+  - trigger: ":sub-confirm"
+    replace: "[CONFIRMATION REQUIRED] - Can you confirm [TOPIC]"
+
+### email templates
+### prefix all subjects with :et-
+
+  - trigger: ":et-meeting"
+    replace: |
+      Hi [Name],
+
+      Can we meet to discuss [TOPIC].
+
+      I've scheduled for [DATE] at [TIME].
+      
+      Please let me know if this doesn't work.
+
+      Kind regards
+      
+      Parminder
+  
+  - trigger: ":et-travel"
+    replace: |
+      Hi [Name],
+
+      Would you be able to approve my travel & accommodation for the [REASON] on [DATE] - [DATE].
+      
+      Below are the approximate costings*:
+      
+        - Train - £[COST] (Off-peak return) 2 singles are currently more expensive than an off-peak return.
+          
+        - Hotel - £[COST]
+        
+      Total Cost - £[COST].
+
+      *prices may change at time of booking
+      
+      Kind regards
+ 
+      Parminder
+
+
+  - trigger: ":et-update"
+    replace: |
+      Hi [Name],
+
+      Can you provide an update on [TOPIC]?
+
+      Kind regards
+      
+      Parminder
+  
+
+  - trigger: ":et-info"
+    replace: |
+      Hi [Name],
+
+      Can you provide info on [TOPIC]?
+
+      Kind regards
+      
+      Parminder
+
+  - trigger: ":et-confirm"
+    replace: |
+      Hi [Name],
+
+      Can you confirm [TOPIC]?
+
+      Kind regards
+      
+      Parminder

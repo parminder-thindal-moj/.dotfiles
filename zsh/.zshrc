@@ -58,7 +58,7 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
+HIST_STAMPS="dd/mm/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -70,10 +70,10 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 	git
+	zsh-autocomplete
 	zsh-autosuggestions
 	zsh-syntax-highlighting
 	fast-syntax-highlighting
-	zsh-autocomplete
 )
 
 # oh-my-zsh
@@ -118,5 +118,6 @@ eval "$(pyenv virtualenv-init -)"
 
 # homebrew update frequency.
 export HOMEBREW_AUTO_UPDATE_SECS=604800
+
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/parminderthindal/.cache/lm-studio/bin"

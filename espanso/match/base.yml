@@ -9,16 +9,20 @@
 # it gets replaced by the "replace" string.
 matches:
   # Simple text replacement
-
   - trigger: ":espanso"
     replace: "Hi there!"
 
-  - trigger: ":br"
-    replace: "Best regards!"
-
   - trigger: ":qq"
-    replace: "Quick Question -"
+    replace: "Quick Question - "
 
+  - trigger: ":sq"
+    replace: "Silly Question - "
+    
+  - trigger: ":kr"
+    replace: "Kind regards"
+
+  - trigger: ":nudge"
+    replace: "Friendly nudge :point_up: "
 
   # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
 
@@ -43,3 +47,4 @@ matches:
           cmd: "echo 'Hello from your shell'"
 
   # And much more! For more information, visit the docs: https://espanso.org/docs/
+

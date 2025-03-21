@@ -1,0 +1,20 @@
+# it gets replaced by the "replace" string.
+matches:
+  # Simple text replacement
+  - trigger: ":fix"
+    replace: "fix: "
+
+  - trigger: ":docs"
+    replace: "docs:"
+
+  - trigger: ":feat"
+    replace: "feat:"
+    
+  - trigger: ":test"
+    replace: "test:"
+  
+  - trigger: ":build"
+    replace: "build:"
+
+  - trigger: ":chore"
+    replace: "chore:"

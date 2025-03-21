@@ -33,9 +33,12 @@ Temporary Items
 
 # Environments
 .env
-.venv
+**/*venv*/
+**/.venv/
+**/_venv/
+hvenv/
 env/
-venv/
 ENV/
 env.bak/
 venv.bak/
+mlenv/
