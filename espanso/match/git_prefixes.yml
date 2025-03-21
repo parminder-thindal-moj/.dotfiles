@@ -1,20 +1,44 @@
-# it gets replaced by the "replace" string.
+# git prefix templates
+# should appear as labels on Github.
+# inspired by https://dev.to/ashishxcode/mastering-the-art-of-writing-effective-github-commit-messages-5d2p
+
 matches:
-  # Simple text replacement
-  - trigger: ":fix"
-    replace: "fix: "
 
-  - trigger: ":docs"
-    replace: "docs:"
-
-  - trigger: ":feat"
-    replace: "feat:"
-    
-  - trigger: ":test"
-    replace: "test:"
-  
+  # adding new script for building the production version of an app.
   - trigger: ":build"
     replace: "build:"
 
+  # changes to improve the build process or other tasks unrelated to code.
   - trigger: ":chore"
     replace: "chore:"
+
+  # adding or updating documentation.
+  - trigger: ":docs"
+    replace: "docs:"
+
+  # adding a new feature.
+  - trigger: ":feat"
+    replace: "feat:"
+
+  # use when committing to fix a specific problem or issues.
+  - trigger: ":fix"
+    replace: "fix:"
+
+  # Changes to continuous integration process.
+  # NOT FUNCTIONALITY
+  - trigger: ":gci"
+    replace: "ci:"
+
+  # changes to improves structure or organisation code.
+  # no new features or bugfixs.
+  - trigger: ":refactor"
+    replace: "refactor:"
+
+  # changes to style or formatting or code.
+  # NOT FUNCTIONALITY
+  - trigger: ":style"
+    replace: "style:"
+
+  # adding or updating tests.
+  - trigger: ":test"
+    replace: "test:"
