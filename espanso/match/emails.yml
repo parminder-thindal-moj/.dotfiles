@@ -32,15 +32,15 @@ matches:
     replace: |
       Hi [Name],
 
-      Can we meet to discuss [TOPIC].
+      Putting in time to discuss [TOPIC].
 
-      I've scheduled for [DATE] at [TIME].
-      
-      Please let me know if this doesn't work.
+      Please let me know if this time doesn't work.
 
       Kind regards
       
       Parminder
+
+## need a seperate template for meeting requests with unknown people, or just email enquiries.
   
   - trigger: ":et-travel"
     replace: |
