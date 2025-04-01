@@ -44,5 +44,6 @@ matches:
     replace: "test:"
   
   # temporary saves or work in progress.
+  # Used when switching branches for another task.
   - trigger: ":wip"
     replace: "wip:"

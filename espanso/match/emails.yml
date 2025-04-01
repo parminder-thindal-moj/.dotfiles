@@ -93,3 +93,27 @@ matches:
       Kind regards
       
       Parminder
+  
+  - trigger: ":et-oof-al"
+    replace: |
+      Hi,
+
+      Thanks for your email, I am now on annual leave until [DATE].
+
+      Please contact [NAME] for any inquiries.
+
+      Kind regards
+      
+      Parminder
+
+  - trigger: ":et-oof-sl"
+    replace: |
+      Hi,
+
+      Thanks for your email, unfortunately I am unwell and on leave.
+
+      Please contact [NAME] for any inquiries.
+
+      Kind regards
+      
+      Parminder
