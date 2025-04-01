@@ -42,3 +42,7 @@ matches:
   # adding or updating tests.
   - trigger: ":test"
     replace: "test:"
+  
+  # temporary saves or work in progress.
+  - trigger: ":wip"
+    replace: "wip:"
