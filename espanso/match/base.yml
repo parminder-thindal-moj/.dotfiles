@@ -24,12 +24,17 @@ matches:
   - trigger: ":nudge"
     replace: "Friendly nudge :point_up: "
 
+  - trigger: "@full_name"
+    replace: "Parminder Singh Thindal"
+
+  - trigger: "@job"
+    replace: "Senior Data Scientist"
 
 ### | (literal block scalar) preserves line breaks. 
 ### e.g.:
   - trigger: ":hi-espanso"
     replace: |
-      Can you do favour?
+      Hi espanso, Can you do favour?
       Let me know when you get a chance.
 
 # Because there is no line break in this snippet, this appears as written.

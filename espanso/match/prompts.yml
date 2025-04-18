@@ -1,0 +1,6 @@
+### Promopts to use with LLMs
+matches:
+  - trigger: ":socratic"
+    # The socratic method is a way of teaching or guiding someone to answer by asking them thoughtsful open-ended question instead of just giving them answers.
+    replace: "Prompt - Using the socratic method, help me think critically by responding with probing question questions, not conclusions. Also please highlight questions or prompts syntactically as Q1, or P1."
+

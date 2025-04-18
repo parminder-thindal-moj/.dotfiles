@@ -133,3 +133,7 @@ dmypy.json
 
 # DS_STORE (mac specific files)
 **.DS_STORE**
+
+# ignore work espanso file
+espanso/match/work.yml
+
